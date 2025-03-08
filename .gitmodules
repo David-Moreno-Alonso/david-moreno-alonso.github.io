@@ -1,0 +1,3 @@
+[submodule "themes/radiant"]
+	path = themes/radiant
+	url = https://github.com/David-Moreno-Alonso/radiant
