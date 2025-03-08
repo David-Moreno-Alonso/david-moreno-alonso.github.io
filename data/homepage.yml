@@ -1,0 +1,92 @@
+# showcase
+showcase:
+  enable: true
+  title: "¡Hola, soy David!"
+  subtitle: "Desarrollador de Aplicaciones Web"
+  description: "Desarrollador de Aplicaciones Web & Estudiante de ciberseguridad JAVA | SQL | HTML | CSS | JS | VUE | PHP | SCSS | Bootstrap & Tailwind"
+  image:
+    x: "img/showcase/showcase.png"
+    _2x: "img/showcase/showcase@2x.png"
+  imageMobile:
+    x: "img/showcase/showcase-mobile.jpg"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contacto"
+    URL: "#contact"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/david-moreno-alonso/"
+
+    - icon: "github"
+      URL: "https://github.com/david-moreno-alonso"
+
+# about
+about:
+  enable: true
+  title: "¿Quien soy?"
+  content: '<p class="lead">
+    Soy un programador con pocos años de experiencia laboral pero siempre en busca de nuevas oportunidades que me permitan seguir mejorando mis habilidades y afrontar nuevos retos profesionales. 
+    </p>
+    <p class="lead">
+    Me considero una persona creativa, con una excelente capacidad de resolución de problemas y gran habilidad para la planificación y ejecución de proyectos.
+    </p>'
+  button:
+    enable: false
+    icon: "icon-smile-fill"
+    btnText: "Sobre mi"
+    URL: "https://www.linkedin.com/in/david-moreno-alonso/"
+  image:
+    x: "img/who-am-i/me.jpg"
+    _2x: "img/who-am-i/me.jpg"
+
+# education
+education:
+  enable: true
+  title: "Educación"
+  items:
+    - university: "Colegio San Prudencio"
+      year: "2020-2022"
+      degree: "Bachiller Tecnológico"
+
+    - university: "EGIBIDE (Fundación Diocesanas-Jesús Obrero Fundazioa)"
+      year: "2022-2024"
+      degree: "Ciclo Formativo de Grado Superior-Desarrollo de aplicaciones web"
+
+# experience
+experience:
+  enable: true
+  title: "Experiencia"
+  description: "He participado en el diseño y ejecución de soluciones innovadoras, aprendiendo a adaptarme a distintos entornos de trabajo y a contribuir de manera efectiva en equipos multidisciplinarios. Mi enfoque se centra en el aprendizaje continuo y en la aplicación práctica de mis conocimientos para generar valor en cada proyecto."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/david-moreno-alonso/"
+
+  items:
+    - title: "Programador web"
+      company: "Teknei"
+      duration: "Mar 2024 - May 2024"
+      
+# contact
+contact:
+  enable: true
+  title: "Contacto"
+  form:
+    action: "https://formspree.io/f/xoveakjz"
+    method: "POST"
+    email: "Email"
+    message: "Escribe tu mensaje..."
+  phone:
+    title: "Telefono"
+    number: "+34 692484269"
+  email:
+    title: "Email"
+    email: '<a href="mailto:davizmoreno240@gmail.com">davizmoreno240@gmail.com</a>'
+  address:
+    title: "Dirección"
+    address: "Vitoria-Gasteiz<br />Coronela Ibaibarriaga 18, 01010"
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Enviar Correo"
